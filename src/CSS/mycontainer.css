@@ -1,0 +1,15 @@
+ 
+.container {
+  background-image: url('../Ressources/Images/backGroundBooks.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Pour que l'image de fond reste fixe */
+  min-height:100vh ;
+  height: "100%";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  

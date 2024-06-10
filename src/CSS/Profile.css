@@ -1,0 +1,82 @@
+.profile-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f4f4f4; /* Ajoute une couleur de fond légère */
+}
+
+.profile-decoration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.profile-card {
+  position: relative;
+  width: 400px; /* Augmente la largeur */
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Augmente l'ombre */
+  padding: 30px; /* Augmente le padding */
+}
+
+.profile-avatar {
+  width: 150px; /* Augmente la taille de l'avatar */
+  height: 150px; /* Augmente la taille de l'avatar */
+  background: #fff;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre */
+}
+
+.profile-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Augmente l'espacement entre les champs */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px; /* Ajoute un espacement sous le label */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px; /* Augmente le padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Augmente la taille de la police */
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px; /* Augmente le padding */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px; /* Augmente la taille de la police */
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
